@@ -10,7 +10,7 @@ import Callout from './components/Callout';
 import UserLocation from './components/UserLocation'; // eslint-disable-line import/no-cycle
 import Camera from './components/Camera';
 import VectorSource from './components/VectorSource';
-import ShapeSource from './components/ShapeSource';
+import ShapeSource, { RCTMGLShapeSource } from './components/ShapeSource';
 import RasterSource from './components/RasterSource';
 import ImageSource from './components/ImageSource';
 import Images from './components/Images';
@@ -70,6 +70,7 @@ MapboxGL.Annotation = Annotation;
 // sources
 MapboxGL.VectorSource = VectorSource;
 MapboxGL.ShapeSource = ShapeSource;
+MapboxGL.RCTMGLShapeSource = RCTMGLShapeSource;
 MapboxGL.RasterSource = RasterSource;
 MapboxGL.ImageSource = ImageSource;
 MapboxGL.Images = Images;

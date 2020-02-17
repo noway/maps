@@ -196,7 +196,7 @@ class ShapeSource extends AbstractSource {
   }
 }
 
-const RCTMGLShapeSource = requireNativeComponent(
+export const RCTMGLShapeSource = requireNativeComponent(
   NATIVE_MODULE_NAME,
   ShapeSource,
   {
