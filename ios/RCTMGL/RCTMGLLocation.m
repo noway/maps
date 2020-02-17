@@ -19,6 +19,7 @@
     coords[@"latitude"] = @(_location.coordinate.latitude);
     coords[@"altitude"] = @(_location.altitude);
     coords[@"accuracy"] = @(_location.horizontalAccuracy);
+    coords[@"course"] = @(_location.course);
     coords[@"heading"] = @(_heading.trueHeading);
     coords[@"speed"] = @(_location.speed);
     
