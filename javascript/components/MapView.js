@@ -714,7 +714,7 @@ class MapView extends NativeBridgeComponent(React.Component) {
       ref: nativeRef => this._setNativeRef(nativeRef),
       onPress: this._onPress,
       onLongPress: this._onLongPress,
-      // onMapChange: this._onChange,
+      onMapChange: isAndroid() ? this._onChange : undefined,
       onAndroidCallback: isAndroid() ? this._onAndroidCallback : undefined,
     };
 
