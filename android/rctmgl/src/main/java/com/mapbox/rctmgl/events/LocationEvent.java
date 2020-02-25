@@ -73,6 +73,7 @@ public class LocationEvent implements IEvent {
         coords.putDouble("latitude", location.getLatitude());
         coords.putDouble("altitude", location.getAltitude());
         coords.putDouble("accuracy", location.getAccuracy());
+        coords.putDouble("course", location.getBearing());
         coords.putDouble("heading", location.getBearing());
         coords.putDouble("speed", location.getSpeed());
 
